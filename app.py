@@ -106,7 +106,7 @@ def suggestions(courses, results, selected_codes):
     out = pd.DataFrame(rows)
     return out.sort_values(["CFU", "Nome corso"], ascending=[True, True])
 
-st.title("Verifica requisiti delle classi di concorso")
+st.title("CheckMySSD")
 st.caption("ATTENZIONE: La verifica è solo dimostrativa. Non sostituisce una verifica ufficiale")
 
 if not COURSES_FILE.exists() or not RULES_FILE.exists():
