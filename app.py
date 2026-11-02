@@ -261,3 +261,16 @@ with st.expander("Avvertenza normativa"):
         "- In questo spazio verranno inseriti i link alle tabelle ministeriali aggiornate"
         "- Tabelle ministeriali e informazioni utili"
     )
+
+#---------------------------------------------------------------------------------------------------
+st.markdown("---")
+
+st.markdown(
+    """
+    <div style="text-align: center; color: gray; font-size: 13px;">
+        Ideato e sviluppato da Davide Baglieri<br>
+        Gestione e aggiornamento TutorJunior DISLL
+    </div>
+    """,
+    unsafe_allow_html=True
+)
