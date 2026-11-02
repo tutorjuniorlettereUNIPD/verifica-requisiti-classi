@@ -269,7 +269,7 @@ st.markdown(
     """
     <div style="text-align: center; color: gray; font-size: 13px;">
         Ideato e sviluppato da Davide Baglieri<br>
-        Gestione e aggiornamento TutorJunior DISLL
+        Gestione e aggiornamento: TutorJunior DISLL
     </div>
     """,
     unsafe_allow_html=True
